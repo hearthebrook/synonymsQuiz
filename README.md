@@ -1,33 +1,29 @@
 # Symomyms Quiz
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This project was a "Get to know TypeScript" project for me! I have played arund with some basic JavaScript in webdevelopment, and had heard that Typescript is an upcoming language tied closely to JavaScript so I decided to give it a try. 
 
-{Provide a description of the software that you wrote to demonstrate the TypeScript language.}
+For this project, I created a synonyms quiz web application that uses API calls to generate quiz questions. I used two APIs, a synonyms API as well as a random word API, to generate the multiple choice selection. This project had many parts and templates and at first it was hard to integrate the different pieces of the program but luckily, TypeScript makes it fairly easy to keep track of what's going on between the programs. 
 
-{Describe your purpose for writing this software.}
+Like I said, I wanted to learn TypeScript and this was the product. It was fun to work out how to access the information returned from the APIs as well as set up comparisons between different scripts. Overall I learned that TypeScript is a very useful language when it comes to web applications and can increase a pages functionality a lot while also allowing more structure in the set up. 
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+Here's a short demo of what I was able to accomplish.
+[Software Demo Video](https://youtu.be/fSK1aavjUts)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+For this project I used npm and Vite to run my Typescript project on my local computer. 
 
 {Describe the programming language that you used and any libraries.}
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [TypeScript Dev Page](https://www.typescriptlang.org/download)
+- [API Ninjas](https://api-ninjas.com/api)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Save users accuracy to a cloud data base so they can keep track of their score 
+- Display something when they get the answer correct
+- Prevent the exact word from showing up as a synonym option
+- create a larger synonym wordbank to choose from
